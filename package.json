@@ -4,6 +4,7 @@
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "hugo --environment production --minify",
     "serve": "hugo server"
   },
   "devDependencies": {
