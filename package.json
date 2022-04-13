@@ -3,6 +3,9 @@
   "packageManager": "yarn@3.2.0",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "serve": "hugo server"
+  },
   "devDependencies": {
     "autoprefixer": "10.4.4",
     "hugo-extended": "0.96.0",
