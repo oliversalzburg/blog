@@ -1,0 +1,5 @@
+{
+  "extends": ["config:base"],
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "prConcurrentLimit": 0
+}

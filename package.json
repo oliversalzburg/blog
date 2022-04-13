@@ -1,0 +1,15 @@
+{
+  "name": "yarn3-hugo",
+  "packageManager": "yarn@3.2.0",
+  "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "10.4.4",
+    "hugo-extended": "0.96.0",
+    "lint-staged": "12.3.7",
+    "postcss": "8.4.12",
+    "postcss-cli": "9.1.0",
+    "prettier": "2.6.1",
+    "prettier-package-json": "2.6.3"
+  }
+}
