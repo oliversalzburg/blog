@@ -12,3 +12,7 @@ enable_collapsible_toc = true
 enable_open_graph = true
 enable_site_search = true
 enable_zooming_js = true
+
+[taxonomies]
+category = 'categories'
+tag = 'tags'

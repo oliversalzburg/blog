@@ -1,0 +1,9 @@
+{{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+<ul class="list-tags">
+  {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+  <li>
+    <a href="{{ .Permalink }}"><kbd class="tag-item">{{ $tag | urlize }}</kbd></a>
+  </li>
+  {{- end -}} {{- end -}}
+</ul>
+{{ end }}
