@@ -1,4 +1,14 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://oliversalzburg.github.io/blog/'
 languageCode = 'en-us'
 theme = "hugo-theme-monochrome"
-title = 'My New Hugo Site'
+title = 'Stacheldraht Blog'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+author = "Oliver Salzburg"
+enable_collapsible_toc = true
+enable_open_graph = true
+enable_site_search = true
+enable_zooming_js = true
