@@ -17,13 +17,14 @@ I've added a new project template to quickly set up a [Hugo](https://gohugo.io)-
 
 -   The project repository and dependencies are to be [managed with **modern Yarn** (Berry/v2/v3)](https://yarnpkg.com/).
 
-    -   [Yarn Plug 'n' Play, or PnP](https://yarnpkg.com/features/pnp), has been disabled in favor of using `node_modules`. PnP is generally preferred for strictness, but `node_modules` incur less friction.
+    -   [Yarn Plug 'n' Play, or PnP](https://yarnpkg.com/features/pnp) has been disabled in favor of using `node_modules`. PnP is generally preferred for strictness, but `node_modules` incur less friction.
+    -   The default configuration does not utilize [Yarn Zero-Installs](https://yarnpkg.com/features/zero-installs), which are usually enabled by default in new projects.
 
 -   The project's primary output is a static website, [built with **Hugo**](https://gohugo.io/).
 
 -   [Deploys to GitHub Pages](https://pages.github.com/), using [GitHub Actions](https://github.com/features/actions).
 
--   In-editor code quality assistence through [EditorConfig](https://editorconfig.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged).
+-   Code quality assistence through [EditorConfig](https://editorconfig.org/) + [Prettier](https://prettier.io/) + [lint-staged](https://github.com/okonet/lint-staged).
 
     -   A git pre-commit hook for lint-staged is created through Yarn. [Husky](https://github.com/typicode/husky) is strictly discouraged.
 
