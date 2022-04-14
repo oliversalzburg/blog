@@ -13,6 +13,8 @@ tags:
 
 I've added a new project template to quickly set up a [Hugo](https://gohugo.io)-based website, like this blog.
 
+Check it out: <https://github.com/oliversalzburg/yarn3-hugo>
+
 ## Key Features
 
 -   The project repository and dependencies are to be [managed with **modern Yarn** (Berry/v2/v3)](https://yarnpkg.com/).
