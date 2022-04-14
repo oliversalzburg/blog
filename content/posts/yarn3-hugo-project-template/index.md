@@ -13,12 +13,6 @@ tags:
 
 I've added a new project template to quickly set up a [Hugo](https://gohugo.io)-based website, like this blog.
 
-## Get Started
-
-To use this template, go to <https://github.com/oliversalzburg/yarn3-hugo> and click **Use this template**.
-
-![image-20220413170311704](index.assets/image-20220413164242376.png)
-
 ## Key Features
 
 -   The project repository and dependencies are to be [managed with **modern Yarn** (Berry/v2/v3)](https://yarnpkg.com/).
@@ -36,3 +30,9 @@ To use this template, go to <https://github.com/oliversalzburg/yarn3-hugo> and c
 -   Enables [Renovate](https://github.com/renovatebot/renovate) to keep dependencies updated. The dependency dashboard is disabled.
 
 -   Where possible, Markdown formatting has been adjusted to conform to [Python-Markdown](https://python-markdown.github.io/#differences), so that it will work well with [MkDocs](https://www.mkdocs.org/). [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) is the suggested route to adopt documentation.
+
+## How to use
+
+To use this template, go to <https://github.com/oliversalzburg/yarn3-hugo> and click **Use this template**.
+
+![image-20220413170311704](index.assets/image-20220413164242376.png)

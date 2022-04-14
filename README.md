@@ -1,4 +1,4 @@
 # blog
 
-Code license: MIT
+Code license: MIT  
 Everything in `content`: All rights reserved
