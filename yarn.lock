@@ -1644,9 +1644,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:12.3.8":
-  version: 12.3.8
-  resolution: "lint-staged@npm:12.3.8"
+"lint-staged@npm:12.4.0":
+  version: 12.4.0
+  resolution: "lint-staged@npm:12.4.0"
   dependencies:
     cli-truncate: ^3.1.0
     colorette: ^2.0.16
@@ -1664,7 +1664,7 @@ __metadata:
     yaml: ^1.10.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: c1a7d8af784b960d088acb4e8b6ed0c602ebca6d5f7c4e08a93d8e441a47072f2eb13f23b3ef088905177a99d0f81f82959e9b60da126167ade3a25730d983e2
+  checksum: 4a12aecb3d85b04a2be53f7781906a59e8f37d3e22d11c80eab96e40fc3aa639b6807c4976371926e7dc72b469220be933423b8177b9823cc2912233d12e66e3
   languageName: node
   linkType: hard
 
@@ -3109,7 +3109,7 @@ __metadata:
   dependencies:
     autoprefixer: 10.4.4
     hugo-extended: 0.97.1
-    lint-staged: 12.3.8
+    lint-staged: 12.4.0
     postcss: 8.4.12
     postcss-cli: 9.1.0
     prettier: 2.6.2
