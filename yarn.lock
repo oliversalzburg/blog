@@ -321,12 +321,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.4":
-  version: 10.4.4
-  resolution: "autoprefixer@npm:10.4.4"
+"autoprefixer@npm:10.4.5":
+  version: 10.4.5
+  resolution: "autoprefixer@npm:10.4.5"
   dependencies:
     browserslist: ^4.20.2
-    caniuse-lite: ^1.0.30001317
+    caniuse-lite: ^1.0.30001332
     fraction.js: ^4.2.0
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
@@ -335,7 +335,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 42d46509c50d840c5040bfc1a336533f5920af9152caea9f5a734e47cd5bf533b1f7425db60997c43e3d72e3385d08d0baa2c8781179a8466af2bb75ef7671ae
+  checksum: 8b8f0e9184929597a83d1ea0e11ac7dc0e86c60e6ef1a1afe299d27a33609629d2fc08c322911c7c615d0aeede69593dbcbc79353e56d9421f0d18027ca0aa8f
   languageName: node
   linkType: hard
 
@@ -500,10 +500,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001317":
-  version: 1.0.30001331
-  resolution: "caniuse-lite@npm:1.0.30001331"
-  checksum: d6b784f5b44e5da2b9f79e3aec65a7aceb786a9fcfb78e17cb3f7816617128bd22ecb77f0a1cb49554cbf92d97d812189563bcca0d2587681bb2ce6fb35c3fb3
+"caniuse-lite@npm:^1.0.30001317, caniuse-lite@npm:^1.0.30001332":
+  version: 1.0.30001332
+  resolution: "caniuse-lite@npm:1.0.30001332"
+  checksum: e6c22bb34780a18e67d2e5be0c767181f28319d5523bd9ce995fd68bb003822ddc9638a830ce4047155ca16565838a3ccc2fe763e715111d748a62864057b3be
   languageName: node
   linkType: hard
 
@@ -3107,7 +3107,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn3-hugo@workspace:."
   dependencies:
-    autoprefixer: 10.4.4
+    autoprefixer: 10.4.5
     hugo-extended: 0.97.3
     lint-staged: 12.4.0
     postcss: 8.4.12
