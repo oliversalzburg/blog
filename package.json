@@ -1,10 +1,10 @@
 {
   "name": "yarn3-hugo",
-  "packageManager": "yarn@3.2.0",
-  "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "license": "MIT",
+  "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "scripts": {
     "build": "hugo --environment production --minify",
+    "new:post": "hugo new posts/$0.md",
     "serve": "hugo server --buildDrafts"
   },
   "devDependencies": {
@@ -15,5 +15,6 @@
     "postcss-cli": "9.1.0",
     "prettier": "2.6.2",
     "prettier-package-json": "2.6.3"
-  }
+  },
+  "packageManager": "yarn@3.2.0"
 }
