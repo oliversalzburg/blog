@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.5",
-    "hugo-extended": "0.97.3",
+    "hugo-extended": "0.98.0",
     "lint-staged": "12.4.1",
     "postcss": "8.4.12",
     "postcss-cli": "9.1.0",
