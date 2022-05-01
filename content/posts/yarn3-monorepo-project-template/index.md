@@ -1,7 +1,7 @@
 ---
 title: "Yarn3 Monorepo Project Template"
 date: 2022-05-01T19:13:58+02:00
-draft: true
+draft: false
 
 tags:
     - yarn
