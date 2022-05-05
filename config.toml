@@ -1,4 +1,4 @@
-baseURL = 'https://oliversalzburg.github.io/blog/'
+baseURL = 'https://blog.rm-rf.link/'
 languageCode = 'en-us'
 theme = "hugo-theme-monochrome"
 title = 'Stacheldraht Blog'
