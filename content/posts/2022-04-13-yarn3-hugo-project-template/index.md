@@ -1,5 +1,5 @@
 ---
-title: "yarn3-hugo Project Template"
+title: "Yarn 3 Hugo Project Template"
 date: 2022-04-13T15:13:48+02:00
 draft: false
 
@@ -9,7 +9,7 @@ tags:
     - github
 ---
 
-# yarn3-hugo Project Template
+# `yarn3-hugo` Project Template
 
 I've added a new project template to quickly set up a [Hugo](https://gohugo.io)-based website, like this blog.
 

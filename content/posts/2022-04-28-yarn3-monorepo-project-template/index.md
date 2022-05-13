@@ -1,5 +1,5 @@
 ---
-title: "Yarn3 Monorepo Project Template"
+title: "Yarn 3 Monorepo Project Template"
 date: 2022-05-01T19:13:58+02:00
 draft: false
 
@@ -8,7 +8,7 @@ tags:
     - github
 ---
 
-# yarn3-monorepo Project Template
+# `yarn3-monorepo` Project Template
 
 I've taken the learnings from the previously created project templates and merged them into a monorepo.
 
