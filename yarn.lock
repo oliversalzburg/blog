@@ -249,13 +249,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-union@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "array-union@npm:3.0.1"
-  checksum: b5271d7e5688d2d1932928b271796dbbddc422448557ab05ef6f34a9f84fb645eb855384feec6234bf59c226053a0e21b8a00b0e6cd588874b90a5c13dbeb64e
-  languageName: node
-  linkType: hard
-
 "author-regex@npm:^1.0.0":
   version: 1.0.0
   resolution: "author-regex@npm:1.0.0"
@@ -894,16 +887,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.7":
-  version: 3.2.11
-  resolution: "fast-glob@npm:3.2.11"
+"fast-glob@npm:^3.3.0":
+  version: 3.3.1
+  resolution: "fast-glob@npm:3.3.1"
   dependencies:
     "@nodelib/fs.stat": ^2.0.2
     "@nodelib/fs.walk": ^1.2.3
     glob-parent: ^5.1.2
     merge2: ^1.3.0
     micromatch: ^4.0.4
-  checksum: f726d4d6545ae9ade242eba78ae418cd8beac6c9291cdc36fc6b3b4e54f04fa0ecde5767256f2a600d6e14dc49a841adb3aa4b5f3f0c06b35dd4f3954965443d
+  checksum: b68431128fb6ce4b804c5f9622628426d990b66c75b21c0d16e3d80e2d1398bf33f7e1724e66a2e3f299285dcf5b8d745b122d0304e7dd66f5231081f33ec67c
   languageName: node
   linkType: hard
 
@@ -997,7 +990,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^11.1.1":
+"fs-extra@npm:^11.0.0, fs-extra@npm:^11.1.1":
   version: 11.1.1
   resolution: "fs-extra@npm:11.1.1"
   dependencies:
@@ -1127,17 +1120,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^12.0.0":
-  version: 12.2.0
-  resolution: "globby@npm:12.2.0"
+"globby@npm:^13.0.0":
+  version: 13.2.2
+  resolution: "globby@npm:13.2.2"
   dependencies:
-    array-union: ^3.0.1
     dir-glob: ^3.0.1
-    fast-glob: ^3.2.7
-    ignore: ^5.1.9
+    fast-glob: ^3.3.0
+    ignore: ^5.2.4
     merge2: ^1.4.1
     slash: ^4.0.0
-  checksum: 121fee62bb9a43a35a32731cda9540241003ef578f9cee5ad87b27d3020b94857ff62f8d82cb99dbeedf6f26981c9fa62509d873392642ceb37674f3d6ec4e52
+  checksum: a8d7cc7cbe5e1b2d0f81d467bbc5bc2eac35f74eaded3a6c85fc26d7acc8e6de22d396159db8a2fc340b8a342e74cac58de8f4aee74146d3d146921a76062664
   languageName: node
   linkType: hard
 
@@ -1283,10 +1275,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.1.9":
-  version: 5.2.0
-  resolution: "ignore@npm:5.2.0"
-  checksum: 7fb7b4c4c52c2555113ff968f8a83b8ac21b076282bfcb3f468c3fb429be69bd56222306c31de95dd452c647fc6ae24339b8047ebe3ef34c02591abfec58da01
+"ignore@npm:^5.2.4":
+  version: 5.2.4
+  resolution: "ignore@npm:5.2.4"
+  checksum: 7c7cd90edd9fea6e037f9b9da4b01bf0a86b198ce78345f9bbd983929d68ff14830be31111edc5d70c264921f4962404d75b7262b4d9cc3bc12381eccbd03096
   languageName: node
   linkType: hard
 
@@ -2097,36 +2089,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-cli@npm:9.1.0":
-  version: 9.1.0
-  resolution: "postcss-cli@npm:9.1.0"
+"postcss-cli@npm:10.1.0":
+  version: 10.1.0
+  resolution: "postcss-cli@npm:10.1.0"
   dependencies:
     chokidar: ^3.3.0
     dependency-graph: ^0.11.0
-    fs-extra: ^10.0.0
+    fs-extra: ^11.0.0
     get-stdin: ^9.0.0
-    globby: ^12.0.0
+    globby: ^13.0.0
     picocolors: ^1.0.0
-    postcss-load-config: ^3.0.0
+    postcss-load-config: ^4.0.0
     postcss-reporter: ^7.0.0
     pretty-hrtime: ^1.0.3
     read-cache: ^1.0.0
-    slash: ^4.0.0
+    slash: ^5.0.0
     yargs: ^17.0.0
   peerDependencies:
     postcss: ^8.0.0
   bin:
     postcss: index.js
-  checksum: ae34e46217bf0317f93632263661f8296be3ee9f7859f5afb517a206197aa3abac6500814f00879702b7d372b64fea1b45cb36e00dd6ba37e021b79ab8bc67ee
+  checksum: 0cbf18868fd6ffc6063867879da14ab0c1743cb7d14b262b052edb8073588ab9e4dd0b16a959eb07dab5e8777d2ad041cd8bbf1dc68a487f8f412774c3503f0d
   languageName: node
   linkType: hard
 
-"postcss-load-config@npm:^3.0.0":
-  version: 3.1.4
-  resolution: "postcss-load-config@npm:3.1.4"
+"postcss-load-config@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "postcss-load-config@npm:4.0.1"
   dependencies:
     lilconfig: ^2.0.5
-    yaml: ^1.10.2
+    yaml: ^2.1.1
   peerDependencies:
     postcss: ">=8.0.9"
     ts-node: ">=9.0.0"
@@ -2135,7 +2127,7 @@ __metadata:
       optional: true
     ts-node:
       optional: true
-  checksum: 7d2cc6695c2fc063e4538316d651a687fdb55e48db453ff699de916a6ee55ab68eac2b120c28a6b8ca7aa746a588888351b810a215b5cd090eabea62c5762ede
+  checksum: 5f568420c4d758d77d661f26914c08fe8dfb0666c7b779dc4f48d7fd880d131e8aa232a45cc1a8ba3f47f9c5fca572b661ca0103c2212979e9dc00918cff3d5f
   languageName: node
   linkType: hard
 
@@ -2475,6 +2467,13 @@ __metadata:
   version: 4.0.0
   resolution: "slash@npm:4.0.0"
   checksum: b522ca75d80d107fd30d29df0549a7b2537c83c4c4ecd12cd7d4ea6c8aaca2ab17ada002e7a1d78a9d736a0261509f26ea5b489082ee443a3a810586ef8eff18
+  languageName: node
+  linkType: hard
+
+"slash@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "slash@npm:5.1.0"
+  checksum: eb48b815caf0bdc390d0519d41b9e0556a14380f6799c72ba35caf03544d501d18befdeeef074bc9c052acf69654bc9e0d79d7f1de0866284137a40805299eb3
   languageName: node
   linkType: hard
 
@@ -2914,10 +2913,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^1.10.0, yaml@npm:^1.10.2":
+"yaml@npm:^1.10.0":
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: 5c28b9eb7adc46544f28d9a8d20c5b3cb1215a886609a2fd41f51628d8aaa5878ccd628b755dbcd29f6bb4921bd04ffbc6dcc370689bb96e594e2f9813d2605f
+  languageName: node
+  linkType: hard
+
+"yaml@npm:^2.1.1":
+  version: 2.3.4
+  resolution: "yaml@npm:2.3.4"
+  checksum: cf03b68f8fef5e8516b0f0b54edaf2459f1648317fc6210391cf606d247e678b449382f4bd01f77392538429e306c7cba8ff46ff6b37cac4de9a76aff33bd9e1
   languageName: node
   linkType: hard
 
@@ -2951,7 +2957,7 @@ __metadata:
     hugo-extended: 0.120.3
     lint-staged: 15.0.2
     postcss: 8.4.31
-    postcss-cli: 9.1.0
+    postcss-cli: 10.1.0
     prettier: 2.8.8
     prettier-package-json: 2.8.0
   languageName: unknown
