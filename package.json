@@ -11,7 +11,7 @@
   "devDependencies": {
     "autoprefixer": "10.4.16",
     "hugo-extended": "0.120.3",
-    "lint-staged": "12.5.0",
+    "lint-staged": "15.0.2",
     "postcss": "8.4.31",
     "postcss-cli": "9.1.0",
     "prettier": "2.8.8",
