@@ -2173,9 +2173,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-package-json@npm:2.6.3":
-  version: 2.6.3
-  resolution: "prettier-package-json@npm:2.6.3"
+"prettier-package-json@npm:2.8.0":
+  version: 2.8.0
+  resolution: "prettier-package-json@npm:2.8.0"
   dependencies:
     "@types/parse-author": ^2.0.0
     commander: ^4.0.1
@@ -2188,7 +2188,7 @@ __metadata:
     sort-order: ^1.0.1
   bin:
     prettier-package-json: bin/prettier-package-json
-  checksum: 9b1811d1949b2e70937f5c5676cf363648ecac1c89cdf270a52db7a1d44104ffee68923c2eea080f34e6421bb7276949e22f1dbe8aef8d308eb864e0c83a1fdd
+  checksum: b02f96249ae110ef032afbf34ed9a3ae270fd589191854af0891e5d49bb7701ed5677aad5a8a568b3e2fd01a169ee0df842f5ef17ae1105fe16e6b3863cdf9c5
   languageName: node
   linkType: hard
 
@@ -2995,7 +2995,7 @@ __metadata:
     postcss: 8.4.31
     postcss-cli: 9.1.0
     prettier: 2.8.8
-    prettier-package-json: 2.6.3
+    prettier-package-json: 2.8.0
   languageName: unknown
   linkType: soft
 
