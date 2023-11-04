@@ -3,7 +3,7 @@
 	"file": "custom.css",
 	"sourceRoot": "/home/runner/work/blog/blog",
 	"sources": [
-		"stdin"
+		"assets/scss/custom.scss"
 	],
 	"sourcesContent": [
 		"ul.list-tags {\n  display: inline-block;\n  \n  list-style: none;\n  padding: 0;\n\n  li {\n    display: inline-block;\n    margin-right: 3px;\n  }\n\n  .tag-item {\n    padding: 1px 3px;\n    border: 1px solid #555;\n  }\n}\n"
