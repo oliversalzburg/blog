@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "yarn3-hugo",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
