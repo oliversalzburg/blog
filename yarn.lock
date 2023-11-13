@@ -120,30 +120,30 @@ __metadata:
   linkType: hard
 
 "@types/http-cache-semantics@npm:^4.0.2":
-  version: 4.0.3
-  resolution: "@types/http-cache-semantics@npm:4.0.3"
-  checksum: 46e8e4d9ff8d032f0a12d08fb7250fc67ede0d566f9a5b3d92384098fb46a3892d3ec377600a1d73ea8a67a979b882f7b9ff5e29524fb76b8e1c44a0dbe04ecf
+  version: 4.0.4
+  resolution: "@types/http-cache-semantics@npm:4.0.4"
+  checksum: 51b72568b4b2863e0fe8d6ce8aad72a784b7510d72dc866215642da51d84945a9459fa89f49ec48f1e9a1752e6a78e85a4cda0ded06b1c73e727610c925f9ce6
   languageName: node
   linkType: hard
 
 "@types/normalize-package-data@npm:^2.4.1":
-  version: 2.4.3
-  resolution: "@types/normalize-package-data@npm:2.4.3"
-  checksum: 9ad94568b53f65d0c7fffed61c74e4a7b8625b1ebbc549f1de25287c2d20e6bca9d9cdc5826e508c9d95e02a48ac69d0282121c300667071661f37090224416b
+  version: 2.4.4
+  resolution: "@types/normalize-package-data@npm:2.4.4"
+  checksum: aef7bb9b015883d6f4119c423dd28c4bdc17b0e8a0ccf112c78b4fe0e91fbc4af7c6204b04bba0e199a57d2f3fbbd5b4a14bf8739bf9d2a39b2a0aad545e0f86
   languageName: node
   linkType: hard
 
 "@types/parse-author@npm:^2.0.0":
-  version: 2.0.2
-  resolution: "@types/parse-author@npm:2.0.2"
-  checksum: ee66497b9b08e9123fb3fc83c92c14bce0603be15d005927004b7be2c8ee08b5b0a28469d640310f532e9654e31ae6604c8e14f4ca6decd87ce974400428a006
+  version: 2.0.3
+  resolution: "@types/parse-author@npm:2.0.3"
+  checksum: a572efe529d410c0550bbf62c3060c06d441edcebf80a50f20d3cd7107bd6ae71bcd7bebb43993e9b1394afab253eedc2f2ae70fbfd8c96df444235513b7ba42
   languageName: node
   linkType: hard
 
 "@types/parse-json@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "@types/parse-json@npm:4.0.1"
-  checksum: 6851183c2ffe4aff607f034f6b5325ebc81ff90409132e2d59fe6cae030d7064593e521d75cda017d9f6b696a7e19d26d1703f366b3e7cbfec8c825331c79c31
+  version: 4.0.2
+  resolution: "@types/parse-json@npm:4.0.2"
+  checksum: b1b863ac34a2c2172fbe0807a1ec4d5cb684e48d422d15ec95980b81475fac4fdb3768a8b13eef39130203a7c04340fc167bae057c7ebcafd7dec9fe6c36aeb1
   languageName: node
   linkType: hard
 
@@ -743,9 +743,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.535":
-  version: 1.4.576
-  resolution: "electron-to-chromium@npm:1.4.576"
-  checksum: b0b9e7ba803bf93ffac9cb830ed2b0e0eb07f20066127065f9ab9e08e4e6a5812040e03d76f6ee9bc59e03fb938fd414e83d4883b29111303e9e88633cf2dce4
+  version: 1.4.581
+  resolution: "electron-to-chromium@npm:1.4.581"
+  checksum: b545ece73fab4be8556873bc6e16da2276ae1c1712e75639d44f94f6210c81d2ff1bce8ebbc41df646e808c7c8bb2efa93e6ba35918b5d02a5d9ebfe493b0f57
   languageName: node
   linkType: hard
 
@@ -850,15 +850,15 @@ __metadata:
   linkType: hard
 
 "fast-glob@npm:^3.3.0":
-  version: 3.3.1
-  resolution: "fast-glob@npm:3.3.1"
+  version: 3.3.2
+  resolution: "fast-glob@npm:3.3.2"
   dependencies:
     "@nodelib/fs.stat": "npm:^2.0.2"
     "@nodelib/fs.walk": "npm:^1.2.3"
     glob-parent: "npm:^5.1.2"
     merge2: "npm:^1.3.0"
     micromatch: "npm:^4.0.4"
-  checksum: b68431128fb6ce4b804c5f9622628426d990b66c75b21c0d16e3d80e2d1398bf33f7e1724e66a2e3f299285dcf5b8d745b122d0304e7dd66f5231081f33ec67c
+  checksum: 42baad7b9cd40b63e42039132bde27ca2cb3a4950d0a0f9abe4639ea1aa9d3e3b40f98b1fe31cbc0cc17b664c9ea7447d911a152fa34ec5b72977b125a6fc845
   languageName: node
   linkType: hard
 
@@ -1182,12 +1182,12 @@ __metadata:
   linkType: hard
 
 "http2-wrapper@npm:^2.1.10":
-  version: 2.2.0
-  resolution: "http2-wrapper@npm:2.2.0"
+  version: 2.2.1
+  resolution: "http2-wrapper@npm:2.2.1"
   dependencies:
     quick-lru: "npm:^5.1.1"
     resolve-alpn: "npm:^1.2.0"
-  checksum: cb4a41a9b4948a607bb27b4e745af5396e01a5e074da4c7ea0d3ce41acd9cef69de373a67d321728bb651fd9701a23c80e8991c9ad5128dab10e9da28a8b6c72
+  checksum: 7207201d3c6e53e72e510c9b8912e4f3e468d3ecc0cf3bf52682f2aac9cd99358b896d1da4467380adc151cf97c412bedc59dc13dae90c523f42053a7449eedb
   languageName: node
   linkType: hard
 
@@ -1562,9 +1562,11 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^10.0.1, lru-cache@npm:^9.1.1 || ^10.0.0":
-  version: 10.0.1
-  resolution: "lru-cache@npm:10.0.1"
-  checksum: 982dabfb227b9a2daf56d712ae0e72e01115a28c0a2068cd71277bca04568f3417bbf741c6c7941abc5c620fd8059e34f15607f90ebccbfa0a17533322d27a8e
+  version: 10.0.2
+  resolution: "lru-cache@npm:10.0.2"
+  dependencies:
+    semver: "npm:^7.3.5"
+  checksum: 5c83a7a2a320a445129cb67a1794437db5483942df63536026fba1cb7ba2e1f7456037876cc9d31076132010f92cb943bee358d336dd94105e50ea971e6d737d
   languageName: node
   linkType: hard
 
@@ -1776,11 +1778,11 @@ __metadata:
   linkType: hard
 
 "nanoid@npm:^3.3.6":
-  version: 3.3.6
-  resolution: "nanoid@npm:3.3.6"
+  version: 3.3.7
+  resolution: "nanoid@npm:3.3.7"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: 606b355960d0fcbe3d27924c4c52ef7d47d3b57208808ece73279420d91469b01ec1dce10fae512b6d4a8c5a5432b352b228336a8b2202a6ea68e67fa348e2ee
+  checksum: e3fb661aa083454f40500473bb69eedb85dc160e763150b9a2c567c7e9ff560ce028a9f833123b618a6ea742e311138b591910e795614a629029e86e180660f3
   languageName: node
   linkType: hard
 
