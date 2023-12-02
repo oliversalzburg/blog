@@ -12,7 +12,7 @@
     "autoprefixer": "10.4.16",
     "hugo-extended": "0.120.4",
     "lint-staged": "15.1.0",
-    "postcss": "8.4.31",
+    "postcss": "8.4.32",
     "postcss-cli": "10.1.0",
     "prettier": "3.1.0",
     "prettier-package-json": "2.8.0"
