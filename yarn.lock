@@ -1214,9 +1214,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hugo-extended@npm:0.123.0":
-  version: 0.123.0
-  resolution: "hugo-extended@npm:0.123.0"
+"hugo-extended@npm:0.123.1":
+  version: 0.123.1
+  resolution: "hugo-extended@npm:0.123.1"
   dependencies:
     careful-downloader: "npm:^3.0.0"
     log-symbols: "npm:^5.1.0"
@@ -1224,7 +1224,7 @@ __metadata:
   bin:
     hugo: lib/cli.js
     hugo-extended: lib/cli.js
-  checksum: 10c0/9318734443ec77a28f23152b2fbfd5ac2a3eb1d8a78a6a7ab3658f284186025b3a0c3b5e2f36e75a4f289b8ca16d44a9846c0fcd76be7e9a320782edbfa51797
+  checksum: 10c0/5cb9d54270acc7f633c79a7a2280fdbd5f326bd7210d4e4696cf0fbe8faf9d203a459bf945d692da6c9db8c89eddfe72e23261886eed3d274988e8d27888a9f3
   languageName: node
   linkType: hard
 
@@ -2988,7 +2988,7 @@ __metadata:
   resolution: "yarn3-hugo@workspace:."
   dependencies:
     autoprefixer: "npm:10.4.17"
-    hugo-extended: "npm:0.123.0"
+    hugo-extended: "npm:0.123.1"
     lint-staged: "npm:15.2.2"
     postcss: "npm:8.4.35"
     postcss-cli: "npm:11.0.0"
