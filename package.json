@@ -17,5 +17,5 @@
     "prettier": "3.3.1",
     "prettier-package-json": "2.8.0"
   },
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.3.0"
 }
