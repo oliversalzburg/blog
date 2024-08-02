@@ -9,7 +9,7 @@
     "serve": "hugo server --buildDrafts"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.19",
+    "autoprefixer": "10.4.20",
     "hugo-extended": "0.130.0",
     "lint-staged": "15.2.7",
     "postcss": "8.4.40",
