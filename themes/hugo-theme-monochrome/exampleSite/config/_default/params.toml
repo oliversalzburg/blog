@@ -1,9 +1,10 @@
 navbar_title = 'Monochrome'
-footer = "Copyright © 2021-2023 by kaiiiz"
+footer = "Copyright © 2021-2024 by kaiiiz"
 author = "kaiiiz"
 color_scheme = "light"
 
 enable_zooming_js = true
+enable_header_anchor = true
 enable_toc = true
 enable_site_search = true
 enable_math = false
