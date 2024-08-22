@@ -1,12 +1,18 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "yarn3-hugo",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oliversalzburg/blog.git"
+  },
   "scripts": {
     "build": "hugo --environment production --minify",
     "lint": "echo This project has no linting.",
     "new:post": "hugo new posts/$0.md",
+    "nextversion": "echo 1.0.0",
     "serve": "hugo server --buildDrafts",
     "test": "echo This project has no tests."
   },
