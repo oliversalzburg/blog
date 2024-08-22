@@ -5,8 +5,10 @@
   "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
   "scripts": {
     "build": "hugo --environment production --minify",
+    "lint": "echo This project has no linting.",
     "new:post": "hugo new posts/$0.md",
-    "serve": "hugo server --buildDrafts"
+    "serve": "hugo server --buildDrafts",
+    "test": "echo This project has no tests."
   },
   "devDependencies": {
     "autoprefixer": "10.4.20",
