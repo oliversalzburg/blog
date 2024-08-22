@@ -8,6 +8,6 @@
 
 node_modules
 
-/public/
+/_site/
 /resources/
 /.hugo_build.lock

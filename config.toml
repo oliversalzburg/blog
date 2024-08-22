@@ -1,5 +1,6 @@
 baseURL = 'https://blog.rm-rf.link/'
 languageCode = 'en-us'
+publishDir = '_site'
 theme = "hugo-theme-monochrome"
 title = 'Stacheldraht Blog'
 
