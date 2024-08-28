@@ -2,5 +2,6 @@ _site/
 .yarn/
 node_modules/
 
+assets/jsconfig.json
 layouts/
 themes/
