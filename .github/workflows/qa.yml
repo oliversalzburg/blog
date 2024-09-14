@@ -13,3 +13,18 @@ jobs:
     if: github.event_name != 'pull_request' || github.actor != 'renovate[bot]'
     name: 🔹 QA
     uses: oliversalzburg/workflows/.github/workflows/qa-browser-app.yml@main
+
+  qa-passed:
+    needs:
+      - qa
+    name: QA Passed
+    # We don't need to run this on Renovate PRs. We will already test the `renovate/foo` branch.
+    if: always() && ( github.event_name != 'pull_request' || github.actor != 'renovate[bot]' )
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Failure
+        if: ${{ contains(needs.*.result, 'failure') }}
+        run: exit 1
+      - name: Success
+        if: ${{ success() && !(contains(needs.*.result, 'failure')) }}
+        run: exit 0
