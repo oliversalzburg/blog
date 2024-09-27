@@ -102,7 +102,7 @@ __metadata:
   resolution: "@oliversalzburg/blog@workspace:."
   dependencies:
     autoprefixer: "npm:10.4.20"
-    hugo-extended: "npm:0.134.3"
+    hugo-extended: "npm:0.135.0"
     lint-staged: "npm:15.2.10"
     postcss: "npm:8.4.47"
     postcss-cli: "npm:11.0.0"
@@ -1237,9 +1237,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hugo-extended@npm:0.134.3":
-  version: 0.134.3
-  resolution: "hugo-extended@npm:0.134.3"
+"hugo-extended@npm:0.135.0":
+  version: 0.135.0
+  resolution: "hugo-extended@npm:0.135.0"
   dependencies:
     careful-downloader: "npm:^3.0.0"
     log-symbols: "npm:^5.1.0"
@@ -1247,7 +1247,7 @@ __metadata:
   bin:
     hugo: lib/cli.js
     hugo-extended: lib/cli.js
-  checksum: 10c0/d7207270ba9c7a7c0a6252b84b32f9f3f5e75c61a022c41dd5d669bb8e900cbe4c8a8aad65afa9c3f24ef685319028d79ddc031b8af72a8179a1bc0f4a719d8f
+  checksum: 10c0/dc4fd76fa5bb66b4c9cb36877a1597a0a88892a5963d7c12ab4618cb1452c69d5a282fd5dea315bac1f3be71e0691179ed29ddb4545792374e4001aa1688edd4
   languageName: node
   linkType: hard
 
