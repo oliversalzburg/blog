@@ -1,6 +1,6 @@
 ---
 title: Deprogramming Yourself from Smartphone Dependency
-date: 2025-02-20T19:06:10+01:00
+date: 2025-02-23T13:02:31+01:00
 draft: false
 tags:
     - amazing
