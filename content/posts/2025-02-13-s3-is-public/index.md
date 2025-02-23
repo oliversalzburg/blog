@@ -2,6 +2,8 @@
 title: S3 is public
 date: 2025-02-13T19:00:00+01:00
 draft: false
+tags:
+    - amazing
 ---
 
 # S3 is public

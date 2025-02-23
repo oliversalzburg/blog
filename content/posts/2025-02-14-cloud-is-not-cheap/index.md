@@ -2,6 +2,8 @@
 title: Cloud is not cheap
 date: 2025-02-14T19:00:00+01:00
 draft: false
+tags:
+    - amazing
 ---
 
 # Cloud is not cheap

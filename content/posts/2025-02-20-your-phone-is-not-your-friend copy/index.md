@@ -2,6 +2,8 @@
 title: "Your Phone (Number) is not your Friend"
 date: 2025-02-20T19:06:10+01:00
 draft: false
+tags:
+    - amazing
 ---
 
 # Your Phone (Number) is not your Friend
