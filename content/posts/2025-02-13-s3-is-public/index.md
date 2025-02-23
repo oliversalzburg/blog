@@ -1,10 +1,10 @@
 ---
-title: S3 is Public
+title: S3 is public
 date: 2025-02-13T19:00:00+01:00
 draft: false
 ---
 
-# S3 is Public
+# S3 is public
 
 I have worked in IT for 20+ years. I have deployed web-scale applications on the cloud. Let me share my amazing knowledge with you! Episode 1.
 
