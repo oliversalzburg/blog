@@ -21,3 +21,12 @@ While we have made great advances in preventing anyone from sending an e-mail fr
 Have you ever clicked on a link in a phishing e-mail? Did you ever follow a link from a postal service mail informing you about a package you didn't know you ordered? Did you ever open an Excel attachment and only backed out at the last second when Excel asked you if you want to enable scripts in the document? Worse?
 
 So who are these people that are apparently reading all your unencrypted e-mail? It's you.
+
+> Bonus content
+>
+> 1. Just _reading_ a modern email in your email client will leak information about you that you're not aware of.
+> 1. Every e-mail attachment is a virus. No file format is safe.
+> 1. Every link in an email is a shortcut to lose your job and/or life savings. No exceptions.
+>
+> Read your e-mails as plain-text only. Refuse to open attachments. Never follow links in e-mails. Open your web browser yourself, navigate to the site in question, find the call to action, download the file from the website.
+> Why is this more secure? HTTPS/TLS establish trust that e-mail doesn't have.
