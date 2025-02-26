@@ -1,0 +1,4 @@
+- Don't trust e-mail
+- Your e-mail based sign-up process is broken
+- Don't trust snail-mail
+- Loyalty rewards don't reward loyalty
