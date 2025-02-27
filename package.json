@@ -1,31 +1,20 @@
 {
-  "$schema": "https://json.schemastore.org/package.json",
-  "name": "@oliversalzburg/blog",
-  "version": "1.0.0",
-  "license": "MIT",
-  "author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/oliversalzburg/blog.git"
-  },
-  "type": "module",
-  "scripts": {
-    "build": "hugo --environment production --minify",
-    "lint": "yarn run lint:all",
-    "lint:all": "yarn run lint:prettier",
-    "lint:prettier": "prettier --check .",
-    "nextversion": "echo 1.0.0",
-    "serve": "hugo server --buildDrafts",
-    "test": "echo This project has no tests."
-  },
-  "devDependencies": {
-    "autoprefixer": "10.4.20",
-    "hugo-extended": "0.144.2",
-    "lint-staged": "15.4.3",
-    "postcss": "8.5.3",
-    "postcss-cli": "11.0.0",
-    "prettier": "3.5.1",
-    "prettier-package-json": "2.8.0"
-  },
-  "packageManager": "yarn@4.6.0"
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "@oliversalzburg/blog",
+	"version": "1.0.0",
+	"license": "MIT",
+	"author": "Oliver Salzburg <oliver.salzburg@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oliversalzburg/blog.git"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"autoprefixer": "10.4.20",
+		"hugo-extended": "0.144.2",
+		"postcss": "8.5.3",
+		"postcss-cli": "11.0.0"
+	},
+	"packageManager": "yarn@4.6.0"
 }
