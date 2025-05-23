@@ -165,7 +165,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
     autoprefixer: "npm:10.4.21"
-    hugo-extended: "npm:0.147.4"
+    hugo-extended: "npm:0.147.5"
     postcss: "npm:8.5.3"
     postcss-cli: "npm:11.0.1"
   languageName: unknown
@@ -990,9 +990,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hugo-extended@npm:0.147.4":
-  version: 0.147.4
-  resolution: "hugo-extended@npm:0.147.4"
+"hugo-extended@npm:0.147.5":
+  version: 0.147.5
+  resolution: "hugo-extended@npm:0.147.5"
   dependencies:
     careful-downloader: "npm:^3.0.0"
     log-symbols: "npm:^5.1.0"
@@ -1000,7 +1000,7 @@ __metadata:
   bin:
     hugo: lib/cli.js
     hugo-extended: lib/cli.js
-  checksum: 10c0/f0c6bd2ebfde27b0bfd3fed33dc21a0cff9bc27db0a69d416524a533baf45962c0a8a9a13700a879b61c08539809b842b7870846647fce0fc8595f4bd222f42c
+  checksum: 10c0/6175bbb59687eb88e9882177a58b371001a910effccd29b3d3fceb486d887f4b50cc6010086638870f2b628bc8d3c58744b70d40640bb56ec10fde7d63aa215b
   languageName: node
   linkType: hard
 
