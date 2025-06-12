@@ -3,7 +3,7 @@
   "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true, "defaultBranch": "main" },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["_site/", "themes/", "package.json"]
+    "ignore": ["_site/", "assets/jsconfig.json", "themes/", "package.json"]
   },
   "formatter": {
     "enabled": true,
@@ -84,7 +84,6 @@
     },
     "ignore": [
       "_site/",
-      ".yarn/",
       ".git/",
       "build/",
       "coverage/",
