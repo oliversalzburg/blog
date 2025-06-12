@@ -16,5 +16,5 @@
 		"postcss": "8.5.5",
 		"postcss-cli": "11.0.1"
 	},
-	"packageManager": "yarn@4.9.1"
+	"packageManager": "yarn@4.9.2"
 }
