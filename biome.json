@@ -3,7 +3,13 @@
   "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true, "defaultBranch": "main" },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["_site/", "assets/jsconfig.json", "themes/", "package.json"]
+    "includes": [
+      "**",
+      "!**/_site/",
+      "!**/assets/jsconfig.json",
+      "!**/themes/**",
+      "!**/package.json"
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -16,16 +22,15 @@
     "attributePosition": "auto",
     "bracketSpacing": true
   },
-  "organizeImports": { "enabled": true },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {
     "enabled": true,
     "rules": {
       "recommended": false,
       "complexity": {
         "noExtraBooleanCast": "error",
-        "noMultipleSpacesInRegularExpressionLiterals": "error",
         "noUselessCatch": "error",
-        "noWith": "error"
+        "noAdjacentSpacesInRegex": "error"
       },
       "correctness": {
         "noConstAssign": "error",
@@ -51,7 +56,8 @@
         "noUnusedVariables": "error",
         "useIsNan": "error",
         "useValidForDirection": "error",
-        "useYield": "error"
+        "useYield": "error",
+        "useValidTypeof": "error"
       },
       "style": { "useBlockStatements": "off", "useConst": "error" },
       "suspicious": {
@@ -79,26 +85,27 @@
         "noSparseArray": "error",
         "noUnsafeNegation": "error",
         "useGetterReturn": "error",
-        "useValidTypeof": "error"
+        "noWith": "error"
       }
     },
-    "ignore": [
-      "_site/",
-      ".git/",
-      "build/",
-      "coverage/",
-      "lib/",
-      "node_modules/",
-      "output/",
-      "*.config.*",
-      "packages/*/*.config.*",
-      "source/*-precompiled.js",
-      "packages/*/build/",
-      "packages/*/coverage/",
-      "packages/*/lib/",
-      "packages/*/output/",
-      "packages/*/public/",
-      "public/"
+    "includes": [
+      "**",
+      "!**/_site/",
+      "!**/.git/",
+      "!**/build/",
+      "!**/coverage/",
+      "!**/lib/",
+      "!**/node_modules/",
+      "!**/output/",
+      "!**/*.config.*",
+      "!**/packages/**/*/*.config.*",
+      "!**/source/**/*-precompiled.js",
+      "!**/packages/**/*/build/",
+      "!**/packages/**/*/coverage/",
+      "!**/packages/**/*/lib/",
+      "!**/packages/**/*/output/",
+      "!**/packages/**/*/public/",
+      "!**/public/"
     ]
   },
   "javascript": {
@@ -243,7 +250,7 @@
   },
   "overrides": [
     {
-      "include": ["**/*.cts", "**/*.mts", "**/*.ts"],
+      "includes": ["**/*.cts", "**/*.mts", "**/*.ts"],
       "linter": {
         "rules": {
           "correctness": {
@@ -251,15 +258,12 @@
             "noGlobalObjectCalls": "off",
             "noInvalidBuiltinInstantiation": "off",
             "noInvalidConstructorSuper": "off",
-            "noNewSymbol": "off",
             "noSetterReturn": "off",
             "noUndeclaredVariables": "off",
             "noUnreachable": "off",
             "noUnreachableSuper": "off"
           },
           "style": {
-            "noArguments": "error",
-            "noVar": "error",
             "useConst": "error"
           },
           "suspicious": {
@@ -271,13 +275,17 @@
             "noImportAssign": "off",
             "noRedeclare": "off",
             "noUnsafeNegation": "off",
-            "useGetterReturn": "off"
+            "useGetterReturn": "off",
+            "noVar": "error"
+          },
+          "complexity": {
+            "noArguments": "error"
           }
         }
       }
     },
     {
-      "include": ["**/*.cts", "**/*.mts", "**/*.ts"],
+      "includes": ["**/*.cts", "**/*.mts", "**/*.ts"],
       "linter": {
         "rules": {
           "complexity": {
@@ -286,14 +294,14 @@
             "noUselessTypeConstraint": "error"
           },
           "correctness": {
-            "noUnusedVariables": "error",
-            "useArrayLiterals": "off"
+            "noUnusedVariables": "error"
           },
           "style": {
             "noNamespace": "error",
             "noNonNullAssertion": "error",
             "useAsConstAssertion": "error",
-            "useLiteralEnumMembers": "error"
+            "useLiteralEnumMembers": "error",
+            "useArrayLiterals": "off"
           },
           "suspicious": {
             "noConfusingVoidType": "error",
@@ -308,7 +316,7 @@
       }
     },
     {
-      "include": ["**/*.cts", "**/*.mts", "**/*.ts"],
+      "includes": ["**/*.cts", "**/*.mts", "**/*.ts"],
       "javascript": { "globals": [] },
       "linter": {
         "rules": {
@@ -323,6 +331,6 @@
         }
       }
     },
-    { "include": ["*.md"], "formatter": { "indentWidth": 4 } }
+    { "includes": ["**/*.md"], "formatter": { "indentWidth": 4 } }
   ]
 }
