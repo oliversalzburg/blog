@@ -10,7 +10,7 @@
 	},
 	"type": "module",
 	"devDependencies": {
-		"@biomejs/biome": "2.2.3",
+		"@biomejs/biome": "2.2.4",
 		"autoprefixer": "10.4.21",
 		"hugo-extended": "0.150.0",
 		"postcss": "8.5.6",
