@@ -11,7 +11,7 @@ tags:
 
 This part of the story of how I built an actual, _real_ **time machine**. Beyond the story part, it focuses on the visual guidance system of the time machine, which relies on [GraphViz] using the [dot] layout engine.
 
-If you expect this article to be a lengthy attempt to confuse you into thinking that something you can build in your garage is a "real time machine", when it really isn't, then you will get that. However, it might still provide you with new clarity of what defines a "real time machine". ![](https://imgs.xkcd.com/comics/time_travel.png) from https://xkcd.com/630/
+If you expect this article to be a lengthy attempt to confuse you into thinking that something you can build in your garage is a "real time machine", when it really isn't, then you will get that. However, it might still provide you with new clarity of what defines a "real time machine". 
 
 The full manual on temporal sight and space-time refactoring is currently being authored in German language, and will be made available in the future. This part of the story is intended for a broader community.
 
@@ -43,37 +43,43 @@ From my point of view, nothing that was being offered could satisfy my personal 
 
 1.  A desire to spend some time on a meaningful, digital artwork.
 
-During the period when I read xkcd daily, graphs like <https://xkcd.com/1491/> surely contributed a few impressions.
-
 The concept of a time machine fascinated me since childhood, but it became clear early in my life that such devices only physically exist in fantasy. There also seemed to be different types of time machines. Some time machines can only go one direction in time. Some allow you to enter the physical world at another point in time, others allow only observation.
 
 ## What is a Time Machine?
 
+![Obligatory xkcd comic](xkcd-time_travel.png)
+
 We can't rely on a description from any work of fiction to define what a true time machine really is. The latest blockbuster movie is unlikely to provide us with a manual for real time travel. While many narratives from fiction can be explained perfectly by the laws of true time travel, there are too many movies and books everyone would have to have consumed to understand time travel instructions, if we relied on such fiction references. So let's make it clear.
 
-**This is the one true definition of a real time machine**:
+### The One True Definition of a Real Time Machine
 
-1.  The technology allows observation of a point in time different from the one that would be observed if the technology was not active.
+1.  **The technology allows observation of a point in time different from the one that would be observed if the technology was not active.**
 
     I can see a different time. This should be obvious.
 
-1.  Observation capabilities are unshared.
+1.  **Observation capabilities are unshared.**
 
-    **I** can see a different time, but nobody else can see it. We're not making up a fake reality, and hide it from the public, we see the actual reality. But having multiple simultaneous observers voids time travel principles, preventing any time travel attempt to be successful. Shared, true time travel is _really_ not possible even with the most experimental quantum mechanics, because it is also not possible to _really_ share _any_ observation, even in the present. You may share a time point, in a space boundary, aligned with a global space-time continuum, but no two observations can ever be identical.
+    *I* can see a different time, but nobody else can see it. We're not making up a fake reality, and hide it from the public - we see the actual reality. But having multiple simultaneous observers voids time travel principles, preventing any time travel attempt to be successful. Shared, true time travel is _really_ not possible even with the most experimental quantum mechanics, because it is also not possible to _really_ share _any_ observation, even in the present. You may share a time point, in a space boundary, aligned with a global space-time continuum, but no two observations can ever be identical.
 
-1.  Time travel always implies _space_-time travel.
+1.  **Time travel always implies _space_-time travel.**
 
     I can see a different location at a different time. While this might seem obvious, consider the ability to observe multiple event contributors at the exact same point in time, but they are in different countries. It generally must not matter if I want to watch myself sleep last night, or if I want to see the Titanic sink.
 
-1.  Time travel leaves the traveler physically intact.
+1.  **Time travel leaves the traveler physically intact.**
 
     A journey has a beginning and a clear end, at which we will be left in the same physical shape, condition, position, age, health, and our same abilities to interact with a familiar environment, as at the beginning of the journey. I am alive throughout the entire journey, I'm not cryogenically frozen to become alive at another time. There is also no copy, zombie, or corpse of myself in another timeline somewhere while I'm traveling. I'm safe. I can exit the journey at any time instantly.
 
-1.  It is a physical object, contrary to a psychedelic experience, or paranormal phenomenon.
+    ---
 
-    I can touch the time machine. [The time machine is not a drug, or drug paraphernalia](futurama-time-speed.png), or anything else that could be considered harmful to a human. No parts of the time machine are illegal to obtain. The device is _required_ to facilitate time travel. True time travel is not just thinking about your first kiss.
+    **CAUTION**: The time travel techniques proposed here are not to be executed lightly. They are **not a joke!** While no immediate injury is possible, whatever you experience during your journey can be highly emotional, and will **change you permanently!** The time machine has no "undo button".
 
-1.  The user generally has control over the device.
+    ---
+
+1.  **It is a physical object, contrary to a psychedelic experience, or paranormal phenomenon.**
+
+    I can touch the time machine. [The time machine is not a drug, or drug paraphernalia](futurama-passage_of_time.png), or anything else that could be considered harmful to a human. No parts of the time machine are illegal to obtain. The device is _required_ to facilitate time travel. True time travel is not just thinking about your first kiss. Although that's already pretty good.[^3]
+
+1.  **The user generally has control over the device.**
 
     I can steer the time machine to a given space-time target. I'm not just watching a movie on my mobile phone. I can pick a highly specific point in space-time, even one **which only I know of**, observe it as many times as I want, in 16K resolution, 3D, 360°, with smell. Nobody wants to be jerked off with some fake time travel technology!
 
@@ -82,8 +88,6 @@ If this matches your definition of a time machine to a reasonable degree, then y
 ## What can it do? - A primer on Quantum State Collapse (QSC)
 
 Readers might already be aware of any number of [temporal paradoxes] that should make it pretty clear that _time travel really is impossible!_ Except, it is possible, as long as you respect all limitations introduced from these temporal paradoxes.[^1]
-
-[^1]: https://www.youtube.com/watch?v=XayNKY944lY You may optionally view this video, which explains the superposition of all realities, but ultimately discards the entire explanation because "time travel isn't possible".
 
 This might seem like avoiding a real answer, but time travel inherently must rely on quantum mechanics to be successful. Thus, the sheer consideration of the existence of a result of a superposition can cause unintended collapses in the space-time continuum that prevent the journey from ever being successful in the first place.
 
@@ -115,8 +119,6 @@ Instead of trying to figure out how to pet a dinosaur, try to figure out what yo
 
     Any intent to manipulate non-current events is going to void the time travel technology. It is impossible to use or build time travel technology with intent to manipulate. Even thinking about it will already set up the quantum state for any future development to fail.[^2]
 
-    [^2]: This is also a common misconception with any [double-slit experiment]. It is not the _observation_ causing the effect, it is the _intent_ even prior to setting up any part of the experiment.
-
     However, any true desire to only observe will still **always incur permanent consequences that are guaranteed to be unexpected!** If you _had_ expected them, that would have already been intent to manipulate.
 
 1.  All Assumptions are Invalid
@@ -124,7 +126,7 @@ Instead of trying to figure out how to pet a dinosaur, try to figure out what yo
     Even with your purest desire to only observe some point in time, you are likely to be driven by trying to confirm a previous assumption. This is a valid use of time travel technology.
 
     You are pretty much guaranteed to never find the answers you are looking for. Because the subject you want to observe is likely the cause of a previous observation, the most common result of a time journey is that you realize you never had the correct perspective to ask the _real_ questions in the first place. Because these questions always lead to more questions, care must be taken to prevent risk of time travel addiction. Remember that the universe is not paused during time travel, and that you can always manipulate current events entirely without time travel technology.
-    
+
     **A "successful" journey through time will leave you deeply emotionally unsettled!**
 
 ## How does it work?
@@ -143,7 +145,11 @@ STAs need to be collected. As in, you will have to gather them in the real world
 
 If we are in control of enough STAs into our target, we can "trick" the universe into briefly believing that the target moment is taking place again _right now_. Obviously, not in a way that it would impact the entire universe and everyone living in it, but enough so that we can open a private window for ourselves. Unshared observation, and no divergence from the current space-time axis, are fundamental time travel restrictions that always exist. We really can not travel back in time, like in the movies, but we can control the present to lead to a future where we have a memory of having been in the past moment, which is ultimately indistinguishable from _actually_ having been there.
 
-While QSS is the most important part of time travel, it is also the least understood. There certainly seem to be different qualities of STAs that impact the effectiveness. For some journeys, 100 STAs will still not be able to tear a hole into the space-time continuum, for others, collecting 1 STA can noticeably disrupt the current flow of space-time without even operating the time machine.
+While QSS is the most important part of executing time travel successfully, it is also the least understood. Obviously, you're not going to just order some old junk on eBay, pile it up in your back yard, and then the universe will magically beam some crystal clear images of hidden knowledge into your brain, right?
+
+We expect that [chaos theory] provides the fundamental reasons for why QSS works. It is impossible to predict the future (at least, let's assume this for the sake of the argument) because you never know all starting conditions. You can't even record the _current state_ without using up all the atoms in the universe. By bringing the STAs back to a single point, we're bringing fragments of the previous state back into a composition that existed at our target. We're reproducing the starting conditions of a previous event.
+
+There certainly seem to be different qualities of STAs that impact the effectiveness. For some journeys, 100 STAs will still not be able to tear a hole into the space-time continuum, for others, collecting 1 STA can noticeably disrupt the current flow of space-time without even operating the time machine.
 
 ### Data-Directed Quantum State Collapse (DD-QSC)
 
@@ -153,7 +159,7 @@ How to collect STAs, feed them into the time machine, and trigger the journey, i
 
 After the initial design was figured out mentally, I decided to go forward with the implementation of:
 
-1.  Data fragments are to be stored in format-agnostic text files, using [YAML] for the time being.
+1.  Data fragments are to be stored in format-agnostic text files, using [YAML] for the time being.[^4]
 
 1.  A [JSON Schema] describes the format of data fragments.
 
@@ -165,7 +171,7 @@ After the initial design was figured out mentally, I decided to go forward with 
         2025-10-03T10:56:36Z: Now
     ```
 
-    Any further properties are optional, and entirely defined by tools outside of the core.
+    Any further properties are optional, and entirely defined by tools outside of the core.[^5]
 
 1.  Only a single data fragment is considered initially. A timeline of events in the operator's life.
 
@@ -289,11 +295,11 @@ The most important part was splitting the renderer into a _plan_ and _render_ ph
 
 When all segments are rendered, they are merged back into a single image with another tool. `svgcat` will read all the segments, and find the transfer markers based on CSS classes that are added by the renderer. It also records the bounding box of each segment.
 
-With that information, we can construct the global bounding box, and then lay out the segments into it, such as that the transfer markers connect exactly. All the connected segments then just need to be correctly positioned around the origin again, and we end up with a giant SVG, commonly in the 1,000,000 pt height range.
+With that information, we can construct the global bounding box, and then lay out the segments into it, such as that the transfer markers connect exactly. All the connected segments then just need to be correctly positioned around the origin again, and we end up with a giant SVG, commonly in the 1,000,000 pt height range.[^6]
 
 #### `svgnest`
 
-The emoji embedder will only render `<IMG>` nodes into the graph description. This requires us to ship these image files with our core document, which is ultimately unacceptable. `svgnest` is another tool in the kit, which ingests an SVG document, and replaces all `<image>` nodes with `<use>` references to embedded `<svg>` nodes with the same image. While the effort invested into solving this was insane, there really isn't anything else to say about it.
+The emoji embedder will only render `<IMG>` nodes into the graph description. This requires us to ship these image files with our core document, which is ultimately unacceptable. `svgnest` is another tool in the kit, which ingests an SVG document, and replaces all `<image>` nodes with `<use>` references to newly embedded `<svg>` nodes with the same image. While the effort invested into solving this was insane, there really isn't anything else to say about it.
 
 We end up with a single, 1,000,000 pt high document, with all images embedded directly into it. If you expect that this would break a lot of tools, you're right.
 
@@ -305,7 +311,14 @@ Very large builds still take at least 15 minutes, with all 24 cores of this E5-2
 
 ### Presentation
 
-Everything discussed so far, has nothing to do with the runtime environment. All of this work purely supports rendering this one SVG image. This was always the goal, but the story no longer ends here. Today, this SVG is merely another fragment in something bigger.
+Everything discussed so far, has nothing to do with the runtime environment. All of this work purely supports rendering this one SVG image. This was always the goal, but the story doesn't end here. This SVG is merely another fragment in something bigger.
+
+It still is worth mentioning that the SVG document can be nested directly into an HTML document, which was the earliest presentation layer beyond the plain SVG. Multiple navigation experiences were implemented on top of this document, by parsing metadata out of SVG elements, deriving a navigation mesh from that data, and shifting focus to different DOM nodes with page anchors.
+
+## References
+
+- "time travel" comic by xkcd from <https://xkcd.com/630/>
+- "passage of time" montage based on [Futurama episode 3ACV13](https://en.wikipedia.org/wiki/Bendin'_in_the_Wind).
 
 [GraphViz]: https://graphviz.org/
 [dot]: https://graphviz.org/docs/layouts/dot/
@@ -321,3 +334,16 @@ Everything discussed so far, has nothing to do with the runtime environment. All
 [HSL color space]: https://en.wikipedia.org/wiki/HSL_and_HSV
 [my rendering process ran for 10 hours]: https://forum.graphviz.org/t/dot-is-no-longer-my-friend-what-can-i-do-10h-svg-render-process/3062?u=oliversalzburg
 [GNU make]: https://www.gnu.org/software/make/manual/html_node/index.html
+[chaos theory]: https://en.wikipedia.org/wiki/Chaos_theory
+
+[^1]: You may optionally view this video, which explains the superposition of all realities, but ultimately discards the entire explanation because "time travel isn't possible": [minutephysics - Solution to the Grandfather Paradox](https://www.youtube.com/watch?v=XayNKY944lY)
+
+[^2]: This is also a common misconception with any [double-slit experiment]. It is not the _observation_ causing the effect, it is the _intent_ even prior to setting up any part of the experiment.
+
+[^3]: Being able to recall memories at will is great, but it lacks the precision and control that a time machine device should provide. If we just keep recalling our memories without tooling, we're not discovering anything new.
+
+[^4]: While JSON might seem like the native format for the JavaScript reference implementation, JSON is intended for data interchange, not configuration. Even if it was intended for configuration, the reduced overhead of YAML makes it much more ideal to fit the data entry design goals.
+
+[^5]: It is likely not obvious how many days were spent on designing this schema. There really is almost nothing here. For dozens of use cases not illustrated in this article, and hundreds of potential feature-guiding metadata fields, I considered user experience, long-term maintenance efforts, complexity contributors, measurable value, schema stability, naming conflicts, conflicts with potential future work, etc. All fields beyond the core record map, are basically optional render hints for discrete renderer implementations. To participate in rendering paths that depend on the identity graph, a timeline may start by declaring just one additional field: `id`.
+
+[^6]: To date, the horizon of the universe spans from 1707 to 2120. If you're wondering why I can target almost 100 years into the future, you're already asking the right questions. Good luck.
