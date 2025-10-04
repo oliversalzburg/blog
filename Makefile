@@ -24,7 +24,7 @@ test: build
 	@echo "This project has no tests."
 
 run: build
-	hugo server --buildDrafts
+	npx hugo server --buildDrafts
 
 
 node_modules:
