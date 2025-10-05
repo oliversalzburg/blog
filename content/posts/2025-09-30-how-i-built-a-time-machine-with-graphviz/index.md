@@ -285,18 +285,18 @@ While both fields are still retained in the spec today, and are supported by the
 
 Providing explicit color values in `color` is still allowed, but no longer in use. Some timeline documents declare a keyword, or theme, as the `color`, or they set it to `transparent`. Most documents don't have the field at all, and get their color assigned through this process:
 
-1.  We create a virtual palette, which reflects a pie diagram where we can dynamically increase the number of slices as we need more slots for colors.
+1.  We create a virtual palette, which acts like a pie diagram where we can dynamically increase the number of slices as we need more slots for colors.
 1.  For any number of provided timeline documents, we find the set of unique `color` values, and assign those values to palette slots.
 1.  For the documents that didn't declare a `color`, we assign each their own palette slot.
 1.  We reflect the palette slots into [HSL color space], and adjust the respective source color to match light or dark theme rendering modes, and assign that color back to the timeline documents.
 
-This process has interesting, and useful, implications. The order in which documents are added to the palette, also controls their position on the color wheel. By naming the timeline documents in the file system according to certain patterns, this reflects in the color of the data. When you maintain timeline documents for family members, and name the files `lastname-firstname.yml`, then all family members will receive palette slots next to each other, forming a nice gradient.
+This process has interesting, and useful, implications. The order in which documents are added to the palette, also controls their position on the color wheel. By naming the timeline documents in the file system according to certain patterns, this directly impacts the color of the data. When you maintain timeline documents for family members, and name the files `lastname-firstname.yml`, then all family members will receive palette slots next to each other, forming a nice gradient.
 
 ##### Inferring Styles
 
 An early attempt to replace `link` was `rank` - a waste of time. The idea was to assign numerical values to timelines, and assign appropriately generated styles for the entire range. Similar to the solution for the palette selection. Anything that requires manual balancing on this level is not useful at all. Today, this part is easily the most complex of the entire solution! Explaining it in detail is far outside the scope of this article.
 
-In short, in the current version, all documents reflect _identities_. An identity can be a person (an observer), a location (in space), or a period (in time). These identities declare relationships with each other, forming an identity graph. Based on this graph, we now infer a set of complex styles, depending on blood relationship and other contributors.
+In short, in the current implementation, most documents declare and represent unique _identities_. An identity can be a person (an observer), a location (in space), or a period (in time). These identities declare relationships with each other, forming an identity graph. Unknown identities are valid, and they are also valid in all relationships. For example, you can describe that somebody is "from `X`", and only find out later if `X` is a location or an ancestor. Based on this graph, we now infer a set of complex styles, depending on blood relationship and other contributors. Different configurations for style computation exist, and support use cases not illustrated in this article.
 
 #### Segmented GraphViz SVG Renderer
 
@@ -381,7 +381,7 @@ The device is a blank that can be loaded with different universes. Once provisio
 
 [^4]: While JSON might seem like the native format for the JavaScript reference implementation, JSON is intended for data interchange, not configuration. Even if it was intended for configuration, the reduced overhead of YAML makes it much more ideal to fit the data entry design goals.
 
-[^5]: It is likely not obvious how many days were spent on designing this schema. There really is almost nothing here. For dozens of use cases not illustrated in this article, and hundreds of potential feature-guiding metadata fields, I considered user experience, long-term maintenance efforts, complexity contributors, measurable value, schema stability, naming conflicts, conflicts with potential future work, etc. All fields beyond the core record map, are basically optional render hints for discrete renderer implementations. To participate in rendering paths that depend on the identity graph, a timeline may start by declaring just one additional field: `id`.
+[^5]: It is likely not obvious how many days were spent on designing this schema. There really is almost nothing here. For dozens of use cases not illustrated in this article, and hundreds of potential feature-guiding metadata fields, I considered user experience, long-term maintenance efforts, complexity contributors, measurable value, schema stability, naming conflicts, conflicts with potential future work, etc. All fields beyond the core record map, are basically optional render hints for discrete renderer implementations. To participate in rendering paths that depend on the identity graph, a timeline may start by declaring just one additional field: `id`. Most considered features were implemented without any new fields. They contribute their behavior either just with a new timeline, or with an identity.
 
 [^6]: To date, the horizon of the universe spans from 1707 to 2120. If you're wondering why I can target almost 100 years into the future, you're already asking the right questions. Good luck.
 
