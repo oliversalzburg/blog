@@ -36,7 +36,7 @@ A major oversight was that Ice Age doesn't have 3 variants of each land, but 4. 
 
 ## Foreshadowing
 
-Nothing beats a good spreadsheet, right? Except that you will be thinking about replacing the damn spreadsheet with something better, every single second you have to endure using it. Every fiber in your body tells you "No", but you already know deep down, that you will overengineer the shit ouf of this one eventually. But, for the time being, let's look at our key learnings:
+Nothing beats a good spreadsheet, right? Except that I will be thinking about replacing the damn spreadsheet with something better, every single second I have to endure using it. Every fiber in my body tells me "No", but I already know deep down, that I will overengineer the shit ouf of this one eventually. But, for the time being, let's look at our **key learnings**:
 
 1.	Buying cards in bad condition is a waste of money.
 
