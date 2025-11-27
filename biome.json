@@ -1,13 +1,14 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.7/schema.json",
   "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true, "defaultBranch": "main" },
   "files": {
     "ignoreUnknown": false,
     "includes": [
       "**",
-      "!**/_site/",
+      "!**/_site/**",
       "!**/assets/jsconfig.json",
       "!**/themes/**",
+      "!**/layouts/**",
       "!**/package.json"
     ]
   },
@@ -247,90 +248,5 @@
       "onmousewheel",
       "ononline"
     ]
-  },
-  "overrides": [
-    {
-      "includes": ["**/*.cts", "**/*.mts", "**/*.ts"],
-      "linter": {
-        "rules": {
-          "correctness": {
-            "noConstAssign": "off",
-            "noGlobalObjectCalls": "off",
-            "noInvalidBuiltinInstantiation": "off",
-            "noInvalidConstructorSuper": "off",
-            "noSetterReturn": "off",
-            "noUndeclaredVariables": "off",
-            "noUnreachable": "off",
-            "noUnreachableSuper": "off"
-          },
-          "style": {
-            "useConst": "error"
-          },
-          "suspicious": {
-            "noClassAssign": "off",
-            "noDuplicateClassMembers": "off",
-            "noDuplicateObjectKeys": "off",
-            "noDuplicateParameters": "off",
-            "noFunctionAssign": "off",
-            "noImportAssign": "off",
-            "noRedeclare": "off",
-            "noUnsafeNegation": "off",
-            "useGetterReturn": "off",
-            "noVar": "error"
-          },
-          "complexity": {
-            "noArguments": "error"
-          }
-        }
-      }
-    },
-    {
-      "includes": ["**/*.cts", "**/*.mts", "**/*.ts"],
-      "linter": {
-        "rules": {
-          "complexity": {
-            "noStaticOnlyClass": "error",
-            "noUselessConstructor": "error",
-            "noUselessTypeConstraint": "error"
-          },
-          "correctness": {
-            "noUnusedVariables": "error"
-          },
-          "style": {
-            "noNamespace": "error",
-            "noNonNullAssertion": "error",
-            "useAsConstAssertion": "error",
-            "useLiteralEnumMembers": "error",
-            "useArrayLiterals": "off"
-          },
-          "suspicious": {
-            "noConfusingVoidType": "error",
-            "noExplicitAny": "error",
-            "noExtraNonNullAssertion": "error",
-            "noMisleadingInstantiator": "error",
-            "noUnsafeDeclarationMerging": "error",
-            "useAwait": "error",
-            "useNamespaceKeyword": "error"
-          }
-        }
-      }
-    },
-    {
-      "includes": ["**/*.cts", "**/*.mts", "**/*.ts"],
-      "javascript": { "globals": [] },
-      "linter": {
-        "rules": {
-          "correctness": { "noUnusedVariables": "error" },
-          "style": {
-            "useConsistentArrayType": {
-              "level": "error",
-              "options": { "syntax": "generic" }
-            }
-          },
-          "suspicious": { "noExplicitAny": "error" }
-        }
-      }
-    },
-    { "includes": ["**/*.md"], "formatter": { "indentWidth": 4 } }
-  ]
+  }
 }
