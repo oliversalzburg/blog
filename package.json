@@ -12,7 +12,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "2.3.10",
 		"autoprefixer": "10.4.23",
-		"hugo-extended": "0.153.1",
+		"hugo-extended": "0.153.2",
 		"postcss": "8.5.6",
 		"postcss-cli": "11.0.1"
 	},
